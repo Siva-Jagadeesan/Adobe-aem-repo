@@ -257,6 +257,7 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
-main .section.card-container{
-  background-color: lightgray;
+main .section.cards-container{
+  background-color:  var(--light-color);
+
 }
