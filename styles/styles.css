@@ -261,3 +261,21 @@ main .section.cards-container{
   background-color:  var(--light-color);
 
 }
+
+main.error{
+  background-color: #fff;
+  justify-content: center;
+}
+
+main.error .default-content-wrapper{
+  width: 25%;   
+  text-align: center;
+}
+main.error .section{
+  width: 100%;
+  background-color: #505050;
+
+  svg{
+    fill:#fff;
+  }
+}
