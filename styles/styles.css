@@ -258,5 +258,6 @@ main .section.highlight {
   padding: 40px 0;
 }
 main .section.cards-container{
-  background-color: lightgray;
+  background-color:  var(--light-color);
+
 }
