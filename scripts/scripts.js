@@ -12,6 +12,7 @@ import {
   loadSections,
   loadCSS,
 } from './aem.js';
+import { fetchPlaceholders, getMetadata } from '../../scripts/aem.js';
 
 /**
  * Builds hero block and prepends to main in a new section.
@@ -53,6 +54,7 @@ function buildAutoBlocks(main) {
   }
 }
 
+
 /**
  * Decorates the main element.
  * @param {Element} main The main element
@@ -65,6 +67,8 @@ export function decorateMain(main) {
   buildAutoBlocks(main);
   decorateSections(main);
   decorateBlocks(main);
+  fetchPlaceholders(main);
+  
 }
 
 /**
