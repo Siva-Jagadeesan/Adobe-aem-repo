@@ -2,8 +2,10 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+<!-- - Preview: https://main--{repo}--{owner}.aem.page/
+- Live: https://main--{repo}--{owner}.aem.live/ -->
+- Preview: https://main--adobe-aem-repo--siva-jagadeesan.aem.page/
+- Live: https://main--adobe-aem-repo--siva-jagadeesan.aem.live/
 
 ## Installation
 
